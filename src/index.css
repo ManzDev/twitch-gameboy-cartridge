@@ -1,0 +1,54 @@
+@font-face {
+  font-family: Lato;
+  src:
+    url("fonts/lato.woff2") format("woff2"),
+    url("fonts/lato.woff") format("woff"),
+    url("fonts/lato.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bebas Neue";
+  src:
+    url("fonts/bebas-neue.woff2") format("woff2"),
+    url("fonts/bebas-neue.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gill Sans MT Pro";
+  src:
+    url("fonts/gill-sans-mtpro.woff2") format("woff2"),
+    url("fonts/gill-sans-mtpro.woff") format("woff"),
+    url("fonts/gill-sans-mtpro.otf") format("opentype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Roboto;
+  src:
+    url("fonts/roboto.woff2") format("woff2"),
+    url("fonts/roboto.woff") format("woff"),
+    url("fonts/roboto.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Pretendo;
+  src:
+    url("fonts/pretendo.woff2") format("woff2"),
+    url("fonts/pretendo.woff") format("woff"),
+    url("fonts/pretendo.ttf") format("truetype");
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  background: rgb(53 53 95);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
